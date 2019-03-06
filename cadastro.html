@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cadastro </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h3>Cadastro</h3><br>
+
+<form action="novoCliente" method="POST">   
+  
+    <label for="primeiroNome">Primeiro Nome</label>:<br>
+    <input type="text" name="primeiroNome" id="primeiroNome" maxlength="20" required ><br>
+
+    <label  for="Sobrenome" >Sobrenome</label>:<br>
+    <input type="text" name="Sobrenome" id="Sobrenome" maxlength="40"><br>
+
+    <label for="endereço">Endereço</label>:<br>
+    <input type="text" name="Endereço" id="Endereço" maxlength="50"><br>
+
+    <label for="CEP">CEP</label>:<br>
+    <input type="number" name="CEP"  id="CEP" maxlength="8"><br>
+
+    Cidade:<br/>
+
+    <select name="Cidade">
+        <option value="SP">São Paulo</option>
+        <option value="SBC">São Bernardo do Campo</option>
+        <option value="SA">Santo Andre</option>
+        <option value="Diadema">Diadema</option>
+        <option value="SCS"> São Caetano do Sul</option>
+    </select>
+
+    <br>E-mail:<br/>
+
+    <input type="radio" value="gmail" name="email"/> Gmail<br/>
+    <input type="radio" value="hotmail" name="email"/> Hotmail<br/>
+    <input type="email" name="email" required/>
+
+    <br> Marcas: <br/>
+    <input name="marcas" type="checkbox" value="GM">Chevrolet<br/>
+    <input name="marcas" type="checkbox" value="VW">Volkswagen<br/>
+    <input name="marcas" type="checkbox" value="HY">Hyundai<br/>
+    <input name="marcas" type="checkbox" value="H">Honda<br/>
+    <input name="marcas" type="checkbox" value="Fiat">Fiat<br/>
+
+    <input type="submit" value="Salvar"  /> 
+ <form>
+ <br>
+ <input class="bnt" type="submit" value="Entrar" formaction="index.html">
+
+
+</form>
+
+ </body>
+
+
+
